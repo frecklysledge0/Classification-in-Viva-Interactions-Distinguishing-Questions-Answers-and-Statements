@@ -8,8 +8,6 @@ This repository contains a comprehensive machine learning and natural language p
 
 Understanding and categorizing these interactions is crucial for analyzing educational dialogue, automated assessment systems, and conversational AI.
 
-**Key Result:** The system achieves its best results using Support Vector Machines (SVM) combined with BERT embeddings, yielding an impressive **F1-score of 0.81**, ensuring accurate segmentation and reliable performance in classifying these interactions.
-
 ## Techniques & Models Explored
 This project explores a wide range of text representation and classification techniques, ranging from traditional machine learning approaches to state-of-the-art transformer-based models. 
 
@@ -30,14 +28,14 @@ Classical machine learning algorithms (such as SVM, Random Forest, Logistic Regr
 ## Repository Structure
 The repository consists of several Jupyter Notebooks, each dedicated to a specific model or approach:
 
-- `TFid.ipynb` - Implementation using TF-IDF features and traditional ML classifiers.
+- `tfidf.ipynb` - Implementation using TF-IDF features and traditional ML classifiers.
 - `fasttext.ipynb` - Text classification leveraging FastText embeddings.
-- `Byte_pair.ipynb` - Approach utilizing Byte-Pair Encoding.
+- `byte-pair.ipynb` - Approach utilizing Byte-Pair Encoding.
 - `bert.ipynb` - Deep learning classification using standard BERT.
-- `Robata.ipynb` - Deep learning classification using RoBERTa.
+- `roberta.ipynb` - Deep learning classification using RoBERTa.
 - `sbert.ipynb` - Implementation utilizing Sentence-BERT for sentence-level embeddings.
 - `t5.ipynb` - Approach utilizing the T5 transformer model.
-- `best accurate.ipynb` - The culmination notebook demonstrating the model with the highest accuracy and performance metrics, leveraging SVM with BERT embeddings.
+- `best-accurate.ipynb` - The culmination notebook demonstrating the model with the highest accuracy and performance metrics.
 
 ## Requirements & Dependencies
 To run the notebooks in this repository, you will need the following libraries:
@@ -56,4 +54,4 @@ To run the notebooks in this repository, you will need the following libraries:
    ```bash
    pip install pandas numpy scikit-learn torch transformers sentence-transformers fasttext xgboost
    ```
-3. Open the Jupyter Notebooks in your preferred environment (Jupyter Lab, VS Code, Google Colab) to explore the various approaches. Check `best accurate.ipynb` for the optimal solution and its evaluation metrics.
+3. Open the Jupyter Notebooks in your preferred environment (Jupyter Lab, VS Code, Google Colab) to explore the various approaches. Check `best-accurate.ipynb` for the optimal solution and its evaluation metrics.
