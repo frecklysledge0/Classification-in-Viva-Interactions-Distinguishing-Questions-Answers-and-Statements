@@ -37,6 +37,9 @@ The repository consists of several Jupyter Notebooks, each dedicated to a specif
 - `t5.ipynb` - Approach utilizing the T5 transformer model.
 - `best-accurate.ipynb` - The culmination notebook demonstrating the model with the highest accuracy and performance metrics.
 
+## Results
+Our experiments indicate that transformer-based models, specifically **BERT**, achieve the highest performance for this classification task, yielding a test accuracy of approximately **74.2%**. Detailed evaluation metrics and the final model implementation can be found in `best-accurate.ipynb`.
+
 ## Requirements & Dependencies
 To run the notebooks in this repository, you will need the following libraries:
 - `Python 3.8+`
